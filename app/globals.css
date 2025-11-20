@@ -35,12 +35,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #d4a657;
+  background: #F59E0B;
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #c09547;
+  background: #D97706;
 }
 
 /* Utility classes */

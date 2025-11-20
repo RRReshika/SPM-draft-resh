@@ -37,7 +37,7 @@ const timelineEvents: TimelineEvent[] = [
 
 export default function Timeline() {
   return (
-    <section className="py-20 bg-gradient-to-br from-navy-900 to-navy-800 text-white">
+    <section className="py-20 bg-gradient-to-br from-primary-900 to-primary-800 text-white">
       <div className="container-custom">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -70,7 +70,7 @@ export default function Timeline() {
                   whileHover={{ scale: 1.1 }}
                   className="flex-shrink-0 w-32 h-32 bg-gold-500 rounded-full flex items-center justify-center shadow-xl"
                 >
-                  <span className="text-3xl font-bold text-navy-900 font-serif">
+                  <span className="text-3xl font-bold text-white font-serif">
                     {event.year}
                   </span>
                 </motion.div>

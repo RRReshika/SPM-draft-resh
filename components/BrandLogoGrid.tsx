@@ -14,7 +14,7 @@ export default function BrandLogoGrid() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-navy-900 font-serif mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-primary-800 font-serif mb-4">
             Trusted Partner Brands
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -33,7 +33,7 @@ export default function BrandLogoGrid() {
               whileHover={{ scale: 1.05 }}
               className="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow flex flex-col items-center justify-center text-center"
             >
-              <h3 className="text-lg font-bold text-navy-900 mb-2">
+              <h3 className="text-lg font-bold text-primary-800 mb-2">
                 {brand.name}
               </h3>
               <p className="text-xs text-gray-500">{brand.description}</p>

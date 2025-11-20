@@ -40,14 +40,21 @@ export default function Navbar() {
           <Link href="/" className="flex items-center space-x-3">
             <motion.div
               whileHover={{ scale: 1.02 }}
-              className="flex flex-col"
+              className="flex items-center gap-3"
             >
-              <span className="text-2xl font-bold text-navy-900 font-serif">
-                SP Muthiah & Sons
-              </span>
-              <span className="text-xs text-gold-500 font-medium tracking-wider">
-                SINCE 1902
-              </span>
+              <img 
+                src="/spm-logo.png" 
+                alt="SPM Logo" 
+                className="h-14 w-auto object-contain"
+              />
+              <div className="flex flex-col">
+                <span className="text-xl font-bold text-primary-700 font-serif">
+                  SP Muthiah & Sons
+                </span>
+                <span className="text-xs text-gold-500 font-medium tracking-wider">
+                  SINCE 1902
+                </span>
+              </div>
             </motion.div>
           </Link>
 
@@ -57,7 +64,7 @@ export default function Navbar() {
               <Link key={item.name} href={item.href}>
                 <motion.span
                   whileHover={{ y: -2 }}
-                  className="text-sm font-medium text-navy-900 hover:text-gold-500 transition-colors cursor-pointer"
+                  className="text-sm font-medium text-primary-700 hover:text-gold-500 transition-colors cursor-pointer"
                 >
                   {item.name}
                 </motion.span>
@@ -68,7 +75,7 @@ export default function Navbar() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="md:hidden p-2 text-navy-900"
+            className="md:hidden p-2 text-primary-700"
           >
             {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
           </button>
@@ -95,7 +102,7 @@ export default function Navbar() {
                   <Link
                     href={item.href}
                     onClick={() => setIsMobileMenuOpen(false)}
-                    className="block py-3 text-navy-900 hover:text-gold-500 transition-colors font-medium"
+                    className="block py-3 text-primary-700 hover:text-gold-500 transition-colors font-medium"
                   >
                     {item.name}
                   </Link>

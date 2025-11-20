@@ -5,7 +5,7 @@ import { ChevronDown } from 'lucide-react';
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-navy-900 via-navy-800 to-navy-700 text-white overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-primary-900 via-primary-800 to-primary-700 text-white overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0" style={{
@@ -32,6 +32,22 @@ export default function HeroSection() {
               <span className="text-gold-500 font-serif text-lg tracking-wider">
                 Established 1902
               </span>
+            </div>
+          </motion.div>
+
+          {/* Logo */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ delay: 0.3, duration: 0.6 }}
+            className="mb-8"
+          >
+            <div className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 inline-block">
+              <img 
+                src="/spm-logo.png" 
+                alt="SPM Logo" 
+                className="h-20 md:h-28 w-auto mx-auto object-contain"
+              />
             </div>
           </motion.div>
 
@@ -78,7 +94,7 @@ export default function HeroSection() {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="px-8 py-4 bg-gold-500 text-navy-900 rounded-md font-semibold shadow-lg hover:bg-gold-400 transition-colors"
+                className="px-8 py-4 bg-gold-500 text-white rounded-md font-semibold shadow-lg hover:bg-gold-400 transition-colors"
               >
                 Explore Our Products
               </motion.button>
@@ -87,7 +103,7 @@ export default function HeroSection() {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="px-8 py-4 bg-transparent border-2 border-white text-white rounded-md font-semibold hover:bg-white hover:text-navy-900 transition-colors"
+                className="px-8 py-4 bg-transparent border-2 border-white text-white rounded-md font-semibold hover:bg-white hover:text-primary-800 transition-colors"
               >
                 Our Heritage
               </motion.button>

@@ -36,7 +36,7 @@ export default function ProductCard({ product, index }: ProductCardProps) {
           alt={product.name}
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-navy-900/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+        <div className="absolute inset-0 bg-gradient-to-t from-primary-900/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
       </div>
 
       {/* Content */}
@@ -44,7 +44,7 @@ export default function ProductCard({ product, index }: ProductCardProps) {
         <span className="text-xs uppercase tracking-wider text-gold-500 font-semibold">
           {product.category}
         </span>
-        <h3 className="text-xl font-bold text-navy-900 mt-2 mb-2 font-serif">
+        <h3 className="text-xl font-bold text-primary-800 mt-2 mb-2 font-serif">
           {product.name}
         </h3>
         <p className="text-gray-600 text-sm">{product.description}</p>

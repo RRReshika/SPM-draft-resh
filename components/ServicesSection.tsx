@@ -41,7 +41,7 @@ export default function ServicesSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-navy-900 font-serif mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-primary-800 font-serif mb-4">
             Our Reach & Impact
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -68,7 +68,7 @@ export default function ServicesSection() {
               >
                 <stat.icon size={32} className="text-white" />
               </motion.div>
-              <h3 className="text-4xl font-bold text-navy-900 font-serif mb-2">
+              <h3 className="text-4xl font-bold text-primary-800 font-serif mb-2">
                 {stat.number}
               </h3>
               <h4 className="text-xl font-semibold text-gold-500 mb-2">

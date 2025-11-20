@@ -9,15 +9,21 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        navy: {
-          900: '#0b1f3a',
-          800: '#152a47',
-          700: '#1f3554',
+        primary: {
+          900: '#8B0000',
+          800: '#A01010',
+          700: '#B91C1C',
+          600: '#C92A2A',
+          500: '#DC2626',
         },
         gold: {
-          500: '#d4a657',
-          400: '#e0bc7a',
-          300: '#ecd29d',
+          500: '#F59E0B',
+          400: '#FBBF24',
+          300: '#FCD34D',
+        },
+        accent: {
+          red: '#B91C1C',
+          gold: '#F59E0B',
         },
       },
       fontFamily: {

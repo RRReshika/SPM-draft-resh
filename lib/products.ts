@@ -22,7 +22,7 @@ export const products: Product[] = [
     name: 'SPM GOLD Sunflower Oil',
     category: 'oils',
     description: 'Premium quality sunflower oil for healthy cooking',
-    image: 'https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=600&h=600&fit=crop',
+    image: '/products/spm-sunflower-oil.png',
     isOwnBrand: true,
   },
   {
@@ -30,7 +30,7 @@ export const products: Product[] = [
     name: 'SPM Appalam',
     category: 'appalam',
     description: 'Traditional South Indian appalam made with authentic recipes',
-    image: 'https://images.unsplash.com/photo-1596040033229-a0b44bf4f6c4?w=600&h=600&fit=crop',
+    image: '/products/spm-appalam.png',
     isOwnBrand: true,
   },
   {

@@ -36,7 +36,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-navy-900 text-white pt-16 pb-8">
+    <footer className="bg-primary-900 text-white pt-16 pb-8">
       <div className="container-custom">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-12">
           {/* Brand Section */}
@@ -47,10 +47,19 @@ export default function Footer() {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <h3 className="text-3xl font-bold font-serif mb-2">
-                SP Muthiah & Sons
-              </h3>
-              <p className="text-gold-500 mb-4">Since 1902</p>
+              <div className="flex items-center gap-3 mb-4">
+                <img 
+                  src="/spm-logo.png" 
+                  alt="SPM Logo" 
+                  className="h-20 w-auto object-contain"
+                />
+                <div>
+                  <h3 className="text-2xl font-bold font-serif">
+                    SP Muthiah & Sons
+                  </h3>
+                  <p className="text-gold-500">Since 1902</p>
+                </div>
+              </div>
               <p className="text-gray-400 leading-relaxed mb-6">
                 Four generations of trust, quality, and authentic Indian food
                 distribution across Singapore and Southeast Asia.

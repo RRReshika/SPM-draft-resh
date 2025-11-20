@@ -35,7 +35,7 @@ export default function ContactForm() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-4xl md:text-5xl font-bold text-navy-900 font-serif mb-6">
+            <h2 className="text-4xl md:text-5xl font-bold text-primary-800 font-serif mb-6">
               Get In Touch
             </h2>
             <p className="text-lg text-gray-600 mb-8">
@@ -52,7 +52,7 @@ export default function ContactForm() {
                   <MapPin size={24} className="text-white" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-navy-900 mb-1">Address</h3>
+                  <h3 className="font-semibold text-primary-800 mb-1">Address</h3>
                   <p className="text-gray-600">
                     9 Kaki Bukit Road 1 #03-06
                     <br />
@@ -71,7 +71,7 @@ export default function ContactForm() {
                   <Phone size={24} className="text-white" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-navy-900 mb-1">Phone</h3>
+                  <h3 className="font-semibold text-primary-800 mb-1">Phone</h3>
                   <p className="text-gray-600">+65 6748 2828</p>
                   <p className="text-sm text-gold-500 mt-1">
                     WhatsApp Available
@@ -87,7 +87,7 @@ export default function ContactForm() {
                   <Mail size={24} className="text-white" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-navy-900 mb-1">Email</h3>
+                  <h3 className="font-semibold text-primary-800 mb-1">Email</h3>
                   <p className="text-gray-600">info@spmuthiah.com.sg</p>
                 </div>
               </motion.div>
@@ -123,7 +123,7 @@ export default function ContactForm() {
               onSubmit={handleSubmit}
               className="bg-white p-8 rounded-lg shadow-lg"
             >
-              <h3 className="text-2xl font-bold text-navy-900 font-serif mb-6">
+              <h3 className="text-2xl font-bold text-primary-800 font-serif mb-6">
                 Send Us a Message
               </h3>
 
